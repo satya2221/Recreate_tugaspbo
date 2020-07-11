@@ -2,6 +2,7 @@ import Lingkaran
 import Bola
 import Kerucut
 import KerucutTerpancung
+import tabung
 
 keluar = False
 while not keluar:
@@ -31,6 +32,10 @@ while not keluar:
         kerucutnya = Kerucut.Kerucut(jarinya, tinggi)
         print('Volume kerucut = {}'.format(kerucutnya.volume()))
         print('Luas Kerucut = {} \n'.format(kerucutnya.luas()))
+
+        tabungnya = tabung.Tabung(jarinya,tinggi)
+        print('Volume Tabung = {}'.format(tabungnya.volume()))
+        print('Luas Tabung = {}'.format(tabungnya.luas()))
 
         # print kerucut terpancung
         print("Level 3 : ")
